@@ -1098,3 +1098,18 @@ details[open] summary::after {
     scroll-behavior: auto !important;
   }
 }
+
+/* No blue flash when you tap things on a phone */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+details summary:focus {
+  outline: none;
+}
+
+details summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -4px;
+  border-radius: var(--radius-lg);
+}
