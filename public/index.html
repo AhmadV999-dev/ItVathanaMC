@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <!-- Made by VATHANA -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1b2030" />
+    <meta name="description" content="Official VATHANA website for Minecraft mods, projects, social media and groups." />
+    <title>VATHANA</title>
+    <link rel="icon" href="assets/profile-sm.png" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("vathana-theme");
+          if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <header class="nav">
+      <div class="nav-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/profile.jpg" alt="VATHANA profile" width="34" height="34" />
+          <span class="brand-name">VATHANA</span>
+        </a>
+        <nav class="nav-actions" aria-label="Main">
+          <a class="nav-link is-active" href="index.html">Home</a>
+          <a class="nav-link" href="help.html">Help</a>
+          <button class="icon-btn" id="theme-toggle" type="button" data-action="theme" aria-label="Switch theme">
+            <img src="assets/icons/moon.png" alt="Dark mode" width="22" height="22" />
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap page-enter">
+      <section class="section" id="about">
+        <div class="hero-kicker">Official creator site</div>
+        <div class="section-head">
+          <h2 class="section-title"><span class="section-icon" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/></svg></span><span class="section-num">1.</span> ABOUT ME</h2>
+        </div>
+        <article class="glass about">
+          <img class="about-photo" src="assets/profile.jpg" alt="VATHANA account picture" width="120" height="120" />
+          <div>
+            <h1>VATHANA</h1>
+            <div class="meta">
+              <div><b>Nickname</b> Vathana Gaming</div>
+              <div><b>Age</b> 14–15</div>
+              <div><b>From</b> Cambodia 🇰🇭</div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section" id="social">
+        <div class="section-head">
+          <h2 class="section-title"><span class="section-icon" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg></span><span class="section-num">2.</span> SOCIAL MEDIA</h2>
+        </div>
+        <div class="grid-2">
+          <button class="tile" type="button" data-action="open-social" data-id="tiktok">
+            <img class="tile-icon" src="assets/icons/tiktok.png" alt="" width="42" height="42" />
+            <span class="tile-name">TikTok</span>
+            <span class="tile-sub">@vathana1200</span>
+          </button>
+          <button class="tile" type="button" data-action="open-social" data-id="youtube">
+            <img class="tile-icon" src="assets/icons/youtube.png" alt="" width="42" height="42" />
+            <span class="tile-name">YouTube</span>
+            <span class="tile-sub">@Vathana120</span>
+          </button>
+          <button class="tile" type="button" data-action="open-social" data-id="telegram">
+            <img class="tile-icon" src="assets/icons/telegram.png" alt="" width="42" height="42" />
+            <span class="tile-name">Telegram</span>
+            <span class="tile-sub">@Vathana0120</span>
+          </button>
+          <button class="tile" type="button" data-action="open-social" data-id="discord">
+            <img class="tile-icon" src="assets/icons/discord.png" alt="" width="42" height="42" />
+            <span class="tile-name">Discord</span>
+            <span class="tile-sub">@vathana120</span>
+          </button>
+          <button class="tile" type="button" data-action="open-facebook">
+            <img class="tile-icon" src="assets/icons/question.png" alt="" width="42" height="42" />
+            <span class="tile-name">Facebook</span>
+            <span class="tile-sub">No account</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="section" id="groups">
+        <div class="section-head">
+          <h2 class="section-title"><span class="section-icon" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></span><span class="section-num">3.</span> GROUPS</h2>
+        </div>
+        <div class="stack">
+          <article class="glass pack">
+            <img class="pack-icon" src="assets/icons/telegram.png" alt="Telegram" width="72" height="72" />
+            <div>
+              <h3>VATHANA Telegram</h3>
+              <p>Minecraft Bedrock and talking</p>
+              <div class="row-actions">
+                <button class="btn btn-primary" type="button" data-action="open-group" data-id="telegram">Open group</button>
+              </div>
+            </div>
+          </article>
+          <article class="glass pack">
+            <img class="pack-icon" src="assets/icons/discord.png" alt="Discord" width="72" height="72" />
+            <div>
+              <h3>VATHANA Discord</h3>
+              <p>Minecraft Bedrock and talking</p>
+              <div class="row-actions">
+                <button class="btn btn-primary" type="button" data-action="open-group" data-id="discord">Open group</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="mods">
+        <div class="section-head">
+          <h2 class="section-title"><span class="section-icon" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="m7.5 4.3 9 5.2"/><path d="M21 8a2 2 0 0 0-1-1.7l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.7l7 4a2 2 0 0 0 2 0l7-4a2 2 0 0 0 1-1.7z"/><path d="m3.3 7 8.7 5 8.7-5M12 22V12"/></svg></span><span class="section-num">4.</span> MY MODS</h2>
+        </div>
+        <article class="glass pack">
+          <img class="pack-icon" src="assets/mods/vathana-low-opacity.png" alt="Vathana Low Opacity icon" width="72" height="72" />
+          <div>
+            <h3>Vathana Low Opacity V1.2</h3>
+            <p>Low opacity touch buttons for recording. Made by Vathana.</p>
+            <div class="badges">
+              <span class="badge badge-star"><svg class="ico" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M12 2.5l2.94 5.96 6.58.96-4.76 4.64 1.12 6.55L12 17.52l-5.88 3.09 1.12-6.55L2.48 9.42l6.58-.96L12 2.5z"/></svg> BIGFAN ONLY</span>
+              <span class="badge">v1.2</span>
+              <span class="badge">MC 1.26+</span>
+            </div>
+            <div class="row-actions">
+              <button class="btn btn-primary" type="button" data-action="open-mod" data-id="low-opacity">INFO</button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-head">
+          <h2 class="section-title"><span class="section-icon" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></svg></span><span class="section-num">5.</span> MY PROJECTS</h2>
+        </div>
+        <article class="glass pack">
+          <img class="pack-icon" src="assets/mods/vathana-bot.png" alt="Vathana Bot icon" width="72" height="72" />
+          <div>
+            <h3>Vathana Bot</h3>
+            <p>This mod is made by Vathana alone. This mod adds Minecraft bot full control.</p>
+            <div class="badges">
+              <span class="badge badge-status">Testing / Writing</span>
+            </div>
+            <div class="row-actions">
+              <button class="btn btn-primary" type="button" data-action="open-project" data-id="vathana-bot">INFO</button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section" id="used">
+        <div class="section-head">
+          <h2 class="section-title"><span class="section-icon" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M22 11.1V12a10 10 0 1 1-5.9-9.1"/><path d="m9 11 3 3L22 4"/></svg></span><span class="section-num">6.</span> WHAT MODS I USE?</h2>
+        </div>
+        <div class="stack">
+          <article class="glass pack">
+            <img class="pack-icon" src="assets/mods/deesse-ui-pack.jpg" alt="Déesse UI Pack" width="72" height="72" />
+            <div>
+              <h3>Déesse UI Pack</h3>
+              <p>v1.3.95</p>
+              <div class="badges">
+                <span class="badge">UI Pack</span>
+              </div>
+              <div class="row-actions">
+                <button class="btn" type="button" data-action="open-used" data-id="deesse">INFO</button>
+              </div>
+            </div>
+          </article>
+          <article class="glass pack">
+            <img class="pack-icon" src="assets/mods/vathana-low-opacity.png" alt="Vathana Low Opacity icon" width="72" height="72" />
+            <div>
+              <h3>Vathana Low Opacity V1.2</h3>
+              <p>v1.2 · Resource pack</p>
+              <div class="row-actions">
+                <button class="btn" type="button" data-action="open-used" data-id="low-opacity-used">INFO</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="music">
+        <article class="glass player" data-player>
+          <div class="disc" aria-hidden="true">
+            <img src="assets/profile-sm.png" alt="" width="40" height="40" />
+          </div>
+          <div class="player-body">
+            <div class="player-state" data-player-state>Tap play</div>
+            <h2 class="player-title">Theme song</h2>
+            <div class="bar" data-action="music-seek" role="progressbar" aria-label="Theme song progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <div class="bar-fill" data-player-fill></div>
+            </div>
+            <div class="player-foot">
+              <span class="player-time"><span data-player-time>0:00</span> / <span data-player-total>1:00</span></span>
+              <div class="player-controls">
+                <button class="ctl ctl-main" type="button" data-action="music-toggle" aria-label="Play Theme song"><svg class="ico i-play" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M8 5.2v13.6a1 1 0 0 0 1.52.85l11-6.8a1 1 0 0 0 0-1.7l-11-6.8A1 1 0 0 0 8 5.2z"/></svg><svg class="ico i-pause" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M7 4.5h3.5v15H7zM13.5 4.5H17v15h-3.5z"/></svg></button>
+                <button class="ctl" type="button" data-action="music-stop" aria-label="Stop Theme song"><svg class="ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor"/></svg></button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section" id="report">
+        <article class="glass report">
+          <img src="assets/icons/telegram.png" alt="Telegram" width="42" height="42" />
+          <h2>Report or Request</h2>
+          <p>If you want to report a bug/glitch in the website or request something to be added.</p>
+          <a class="btn btn-primary" href="https://t.me/+RX_Wes-dwPE1NjBl" target="_blank" rel="noopener noreferrer">Open Telegram</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <div>© 2026 VATHANA</div>
+      <small>// Made by VATHANA</small>
+    </footer>
+
+    <!-- Social popup -->
+    <div class="overlay" id="modal-social" aria-hidden="true">
+      <div class="modal glass modal-center" role="dialog" aria-modal="true" aria-labelledby="social-name">
+        <button class="modal-close" type="button" data-action="close" aria-label="Close">
+          <img src="assets/icons/close.png" alt="" width="32" height="32" />
+        </button>
+        <img id="social-icon" class="modal-app" src="assets/icons/tiktok.png" alt="" />
+        <h2 id="social-name">TikTok</h2>
+        <div class="username" id="social-user">@vathana1200</div>
+        <img id="social-photo" class="modal-photo" src="assets/profile.jpg" alt="VATHANA account picture" />
+        <div class="warn" id="social-missing" hidden>
+          <svg class="ico" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2.8l10 17.4H2L12 2.8zm-1 6.7v5.6h2V9.5h-2zm0 7.3v2h2v-2h-2z"/></svg> <span>Sorry we don't have a direct account link. Please find me with this username.</span>
+        </div>
+        <div class="modal-actions">
+          <button class="btn" id="social-copy" type="button" data-action="copy" data-copy="">Copy username</button>
+          <a class="btn btn-primary" id="social-go" href="#" target="_blank" rel="noopener noreferrer">GO TO ACCOUNT</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Group popup -->
+    <div class="overlay" id="modal-group" aria-hidden="true">
+      <div class="modal glass" role="dialog" aria-modal="true" aria-labelledby="group-name">
+        <button class="modal-close" type="button" data-action="close" aria-label="Close">
+          <img src="assets/icons/close.png" alt="" width="32" height="32" />
+        </button>
+        <img id="group-icon" class="modal-app" src="assets/icons/telegram.png" alt="" />
+        <h2 id="group-name">VATHANA Telegram</h2>
+        <p class="muted" id="group-purpose">Minecraft Bedrock and talking</p>
+        <div class="group-hero" aria-label="Group image">
+          <img id="group-hero-icon" src="assets/icons/telegram.png" alt="" />
+        </div>
+        <div class="modal-actions">
+          <button class="btn" id="group-copy" type="button" data-action="copy" data-copy="">Copy link</button>
+          <a class="btn btn-primary" id="group-join" href="#" target="_blank" rel="noopener noreferrer">JOIN GROUP</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mod / project info popup (different layout from social) -->
+    <div class="overlay" id="modal-info" aria-hidden="true">
+      <div class="modal glass modal-info" role="dialog" aria-modal="true" aria-labelledby="info-name">
+        <button class="modal-close" type="button" data-action="close" aria-label="Close">
+          <img src="assets/icons/close.png" alt="" width="32" height="32" />
+        </button>
+        <div class="info-layout">
+          <img id="info-icon" src="assets/mods/vathana-low-opacity.png" alt="" />
+          <div>
+            <h2 id="info-name">Name</h2>
+            <div class="badge badge-status" id="info-status" hidden>Testing / Writing</div>
+          </div>
+        </div>
+        <div class="kv">
+          <div>
+            <span>Game version</span>
+            <b id="info-game">Not provided</b>
+          </div>
+          <div>
+            <span>Mod version</span>
+            <b id="info-version">Not provided</b>
+          </div>
+          <div id="info-type-wrap" hidden>
+            <span>Type</span>
+            <b id="info-type">Not provided</b>
+          </div>
+        </div>
+        <p id="info-desc">Not provided</p>
+        <p class="muted" id="info-notes" hidden></p>
+        <div id="info-features-wrap">
+          <h3 class="tile-name">Features</h3>
+          <ul class="feature-list" id="info-features"></ul>
+        </div>
+        <div id="info-bigfan" hidden>
+          <div class="badges">
+            <span class="badge badge-star"><svg class="ico" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M12 2.5l2.94 5.96 6.58.96-4.76 4.64 1.12 6.55L12 17.52l-5.88 3.09 1.12-6.55L2.48 9.42l6.58-.96L12 2.5z"/></svg> BIGFAN ONLY</span>
+          </div>
+          <p class="warn" id="info-bigfan-missing">BigFan Telegram link not provided.</p>
+          <a class="btn btn-primary" id="info-bigfan-link" hidden href="#" target="_blank" rel="noopener noreferrer">Join BigFan Telegram</a>
+        </div>
+        <div class="modal-actions">
+          <a class="btn btn-primary" id="info-download" hidden href="#">Download</a>
+          <a class="btn btn-primary" id="info-open" hidden href="#" target="_blank" rel="noopener noreferrer">Open</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Facebook notice -->
+    <div class="overlay" id="modal-notice" aria-hidden="true">
+      <div class="modal glass modal-center" role="dialog" aria-modal="true" aria-labelledby="notice-title">
+        <button class="modal-close" type="button" data-action="close" aria-label="Close">
+          <img src="assets/icons/close.png" alt="" width="32" height="32" />
+        </button>
+        <img class="modal-app" src="assets/icons/question.png" alt="No account" />
+        <h2 id="notice-title">Facebook</h2>
+        <p>This app I don't has account in it. Try other !</p>
+        <div class="modal-actions">
+          <button class="btn btn-primary" type="button" data-action="close">OK</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
