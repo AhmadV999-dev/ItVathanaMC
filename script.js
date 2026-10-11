@@ -412,7 +412,7 @@
 
   /* ---------- Theme song ---------- */
   var MUSIC_SRC = "assets/music/theme-song.mp3";
-  var MUSIC_VOLUME = 0.25; // soft background level (0 - 1)
+  var MUSIC_VOLUME = 0.10; // soft background level (0 - 1)
   var PAUSED_KEY = "vathana-music-off";
   var TIME_KEY = "vathana-music-time";
   var userOff = false; // true when the visitor pressed pause/stop themselves
