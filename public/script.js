@@ -32,7 +32,7 @@
     telegram: {
       name: "Telegram",
       username: "@Vathana0120",
-      url: "",
+      url: "https://t.me/Vathana0120",
       icon: "assets/icons/telegram.png",
       photo: "assets/profile.jpg",
     },
