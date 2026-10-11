@@ -32,7 +32,7 @@
     telegram: {
       name: "Telegram",
       username: "@Vathana0120",
-      url: "",
+      url: "https://t.me/Vathana0120",
       icon: "assets/icons/telegram.png",
       photo: "assets/profile.jpg",
     },
@@ -63,10 +63,10 @@
   var MODS = {
     "low-opacity": {
       kind: "mod",
-      name: "Vathana Low Opacity V1.1",
+      name: "Vathana Low Opacity V1.2",
       icon: "assets/mods/vathana-low-opacity.png",
       gameVersion: "1.26+",
-      modVersion: "1.1",
+      modVersion: "1.2",
       description:
         "Low opacity touch buttons for recording. Made by Vathana. This mod is BigFan only. It makes the controls less visible for recording video. The author spent 14 days learning and finding the UI controls. Working on Minecraft 1.26+.",
       notes:
@@ -88,8 +88,8 @@
       kind: "project",
       name: "Vathana Bot",
       icon: "assets/mods/vathana-bot.png",
-      gameVersion: "Not provided",
-      modVersion: "Not provided",
+      gameVersion: "1.26+",
+      modVersion: "4.0",
       status: "Testing / Writing",
       description:
         "This mod is made by Vathana alone. Status is in testing and writing. This mod adds Minecraft bot full control.",
@@ -104,22 +104,23 @@
       kind: "used",
       name: "Déesse UI Pack",
       icon: "assets/mods/deesse-ui-pack.jpg",
-      gameVersion: "Not provided",
-      modVersion: "Version not provided",
+      gameVersion: "1.26.50+",
+      modVersion: "v1.3.95",
       type: "UI Pack",
-      description: "Not provided",
+      description:
+        "Déesse UI Pack is a UI pack for Minecraft Bedrock. It gives the game a new UI look, and I use it in my videos.",
       openUrl: "https://www.curseforge.com/minecraft-bedrock/texture-packs/deesse-ui-pack",
       openLabel: "Open on CurseForge",
-      features: [],
+      features: ["New UI look for Minecraft Bedrock", "UI Pack (resource pack)"],
       bigfan: false,
       download: null,
     },
     "low-opacity-used": {
       kind: "used",
-      name: "Vathana Low Opacity V1.1",
+      name: "Vathana Low Opacity V1.2",
       icon: "assets/mods/vathana-low-opacity.png",
       gameVersion: "1.26+",
-      modVersion: "1.1",
+      modVersion: "1.2",
       type: "Resource pack",
       description: "Low opacity touch buttons for recording. Made by Vathana.",
       features: [
