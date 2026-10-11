@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <!-- Made by VATHANA -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1b2030" />
+    <meta name="description" content="Help and QNA for the official VATHANA website." />
+    <title>Help — VATHANA</title>
+    <link rel="icon" href="assets/profile-sm.png" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("vathana-theme");
+          if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <header class="nav">
+      <div class="nav-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/profile.jpg" alt="VATHANA profile" width="34" height="34" />
+          <span class="brand-name">VATHANA</span>
+        </a>
+        <nav class="nav-actions" aria-label="Main">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link is-active" href="help.html">Help</a>
+          <button class="icon-btn" id="theme-toggle" type="button" data-action="theme" aria-label="Switch theme">
+            <img src="assets/icons/moon.png" alt="Dark mode" width="22" height="22" />
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap page-enter">
+      <section class="section">
+        <div class="hero-kicker">Support</div>
+        <div class="section-head">
+          <h1 class="section-title">HELP</h1>
+        </div>
+        <p class="muted">QNA and contact for the official VATHANA website.</p>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">QNA</h2>
+        </div>
+        <div class="qna">
+          <details class="glass" open>
+            <summary>1. What is this?</summary>
+            <div class="qna-body">
+              <p>This is the official VATHANA website for Minecraft mods, projects, social media and groups.</p>
+            </div>
+          </details>
+          <details class="glass">
+            <summary>2. How can I get BigFan Mod?</summary>
+            <div class="qna-body">
+              <p>
+                BigFan-only mods are provided through the BigFan Telegram group.
+                <a href="https://t.me/+3ppmpRpvBhgzMzM9" target="_blank" rel="noopener noreferrer">Join BigFan Telegram</a>
+              </p>
+            </div>
+          </details>
+          <details class="glass">
+            <summary>3. Who made this?</summary>
+            <div class="qna-body">
+              <p>VATHANA.</p>
+            </div>
+          </details>
+          <details class="glass">
+            <summary>4. What if I want to report or request something?</summary>
+            <div class="qna-body">
+              <p>Use the official Telegram group to report a bug/glitch or request something to be added.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="section">
+        <article class="glass report">
+          <img src="assets/icons/telegram.png" alt="Telegram" width="42" height="42" />
+          <h2>Want report or request?</h2>
+          <p>If you want to report a bug/glitch in the website or request something to be added.</p>
+          <a class="btn btn-primary" href="https://t.me/+RX_Wes-dwPE1NjBl" target="_blank" rel="noopener noreferrer">Open Telegram</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <div>© 2026 VATHANA</div>
+      <small>// Made by VATHANA</small>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
