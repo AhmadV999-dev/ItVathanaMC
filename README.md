@@ -25,8 +25,8 @@ It has my social media, groups, mods, projects and the mods I use.
 
 ## Mods and projects
 
-- **Vathana Low Opacity V1.1** (BigFan only): low opacity touch buttons for recording. Minecraft 1.26+
-- **Vathana Bot** (v1.2, Testing / Writing): adds full Minecraft bot control
+- **Vathana Low Opacity V1.2** (BigFan only): low opacity touch buttons for recording. Minecraft 1.26+
+- **Vathana Bot** (v4.0, Testing / Writing): adds full Minecraft bot control
 
 ## Project structure
 
